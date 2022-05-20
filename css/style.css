@@ -1,0 +1,176 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #28293e;
+}
+
+#header {
+  padding: 1rem 0;
+}
+#header .nav-item {
+  margin: 0 3rem;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+#header .nav-item .nav-link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+}
+#header .nav-item:hover .nav-link {
+  color: #ef6d58;
+}
+#header .contactBtn {
+  font-size: 1.4rem;
+  font-weight: 400;
+  border: 0.15rem solid rgba(255, 255, 255, 0.392);
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  padding: 0.75rem 2rem;
+  background: transparent;
+  transition: all 0.3s;
+  color: #fff;
+  text-transform: uppercase;
+}
+#header .contactBtn:hover {
+  background: #ef6d58;
+  border-color: #ef6d58;
+}
+
+#banner {
+  padding: 10rem 0;
+}
+#banner .bannerLeft {
+  position: relative;
+}
+#banner .star {
+  position: absolute;
+  right: 33%;
+  top: 5%;
+  z-index: -1;
+}
+#banner .bannerSubTitle {
+  font-size: 1.6rem;
+  color: #ef6d58;
+  text-transform: uppercase;
+  letter-spacing:.2pc;
+}
+#banner .bannerTitle {
+  font-size: 7.2rem;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 8rem;
+  margin: 0;
+  padding: 2rem 0;
+}
+#banner .bannerText {
+  font-size: 1.6rem;
+  color: #fff;
+  opacity: 0.7;
+  margin: 0;
+}
+#banner .buttonGroup {
+  margin-top: 4rem;
+}
+#banner .buttonGroup .howBtn {
+  font-size: 1.4rem;
+  font-weight: 400;
+  border: 0.15rem solid #ef6d58;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+  padding: 1rem 2rem;
+  background: #ef6d58;
+  transition: all 0.3s;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+#banner .buttonGroup .howBtn:hover {
+  background: transparent;
+  border: 0.15rem solid rgba(255, 255, 255, 0.392);
+  color: #fff;
+}
+#banner .buttonGroup .contactUsLink {
+  font-size: 1.6rem;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 3.3rem;
+}
+#banner .userC {
+  margin-top: 12rem;
+}
+#banner .userC .userInfo {
+  padding-left: 1.5rem;
+}
+#banner .userC .userInfo .userDes {
+  font-size: 1.6rem;
+  color: #fff;
+  opacity: 0.7;
+  font-weight: 400;
+  margin: 0;
+}
+#banner .userC .userInfo .userCompany {
+  font-size: 1.6rem;
+  color: #fff;
+  margin: 0;
+}
+
+#brands {
+  padding: 5rem 0;
+  background: #fdf0e9;
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .container {
+    overflow-x: hidden;
+  }
+  #banner .bannerTitle {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+  #banner .bannerText br {
+    display: none;
+  }
+  #banner .userC .userInfo .userDes br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    overflow-x: hidden;
+  }
+  #header .nav-item {
+    margin-left: 0;
+  }
+  #banner {
+    padding: 5rem 0;
+  }
+  #banner .bannerTitle {
+    font-size: 5.2rem;
+    line-height: 6rem;
+    padding: 2rem 0;
+  }
+  #banner .bannerText br {
+    display: none;
+  }
+  #banner .userC {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  #brands {
+    padding: 3rem 0;
+  }
+}
